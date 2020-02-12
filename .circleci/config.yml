@@ -64,4 +64,4 @@ jobs:
           name: Deploy
           command: |
             sfdx force:source:convert -r force-app -d testDeploy
-            sfdx force:mdapi:deploy -d testDeploy/ -u DevHub -w 2
+            sfdx force:mdapi:deploy -d testDeploy/ -u sukhesh.shetty@gmail.com -w 2
